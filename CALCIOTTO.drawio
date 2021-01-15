@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-15T09:25:40.842Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="cAVWKEjtdYBOsI8kp4Bx" version="14.2.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-01-15T09:37:46.873Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="PFRE4GBNUKyupQ5ZIhDg" version="14.2.2" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="ER">
     <mxGraphModel dx="782" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -533,6 +533,17 @@
         </mxCell>
         <mxCell id="ViXsvkIMtPRjhxcs-rpP-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.539;entryY=0.006;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=ERmany;endFill=0;startArrow=oval;startFill=0;" parent="uaCEyn_hK47C4jp3-MxF-1" source="ViXsvkIMtPRjhxcs-rpP-57" target="ViXsvkIMtPRjhxcs-rpP-76" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="NXMPTRrqSzK1e8uGLm5T" name="schema tabelle">
+    <mxGraphModel dx="782" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="UZ_koe24NYvhW0VOtRhw-0" />
+        <mxCell id="UZ_koe24NYvhW0VOtRhw-1" parent="UZ_koe24NYvhW0VOtRhw-0" />
+        <mxCell id="N0SRcZWPDkmAOQPX199Z-0" value="&lt;div&gt;&lt;span&gt;&lt;b&gt;&lt;i&gt;SQUADRE(Id_squadra,nome_squadra)&lt;/i&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;b&gt;&lt;i&gt;GIOCATORI(Id_giocatore,nome,cognome,ruolo,num_maglia,id_squadra)&lt;br&gt;PARTITE(Id_partita,luogo,data,ora)&lt;br&gt;DISTINTA(Id_distinta,id_partita,Id_giocatore)&lt;br&gt;GOAL(id_goal,minuto,secondo,tipo,id_distinta)&lt;br&gt;SOSTITUZIONE(id_sostituzione,minuto_s,durata_s,id_distinta)&lt;/i&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="UZ_koe24NYvhW0VOtRhw-1">
+          <mxGeometry x="80" y="40" width="470" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
